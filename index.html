@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+      integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="header">
+        <nav class="header-main">
+          <a id="logo" href="#">VERAL</a>
+          <a class="header-main-item" href="#"><strong>AnaSayfa</strong></a>
+          <a class="header-main-item" href="#"><strong>En Çok Satanlar</strong></a>
+          <a class="header-main-item" href="#"><strong>İndirimli Ürünler</strong></a>
+          <button class="btn btn-primary nav-button" id="hesap">
+            <i class="bi bi-bag-fill"><strong>Hesabım</strong></i>
+          </button>
+        </nav>
+      </div>
+      <hr>
+
+
+
+
+
+
+
+      <div class="main">
+        <h5>VERAL'A HOŞGELDİNİZ</h5>
+        <input
+          class="btn-group ih4"
+          id="main-sorgu"
+          placeholder="Aradığınız ürün,kategori veya markayı yazınız."
+          type="text"
+        />
+        <button id="btb" class="btn btn-outline-success ih4">
+          <i class="bi bi-search"></i>
+        </button>
+        <br />
+        <br />
+      </div>
+      <div class="search-list">
+        <ul class="list-group" id="list">
+          <li class="butonlar list-group-item"><a class="list-item" href="cilt.html"></a><button class="btnler" id="btx1">Erkek Cilt Bakımı</button></li>
+          <li class="butonlar list-group-item"><a class="list-item" href="cilt.html"></a><button class="btnler" id="btx2">Erkek Saç Bakımı</button></li>
+          <li class="butonlar list-group-item"><a class="list-item" href="cilt.html"></a><button class="btnler" id="btx3">Erkek Trend Kıyafet</button></li>
+          <li class="butonlar list-group-item"><a class="list-item" href="cilt.html"></a><button class="btnler" id="btx4">Erkek Yazlık Kıyafet</button></li>
+          <li class="butonlar list-group-item"><a class="list-item" href="cilt.html"></a><button class="btnler" id="btx5">Erkek Ayakkabı</button></li>
+          <li class="butonlar list-group-item"><a class="list-item" href="cilt.html"></a><button class="btnler" id="btx6">Kadın Cilt Bakımı</button></li>
+          <li class="butonlar list-group-item"><a class="list-item" href="cilt.html"></a><button class="btnler" id="btx7">Kadın Saç Bakımı</button></li>
+          <li class="butonlar list-group-item"><a class="list-item" href="cilt.html"></a><button class="btnler" id="btx8">Kadın Trend Kıyafet</button></li>
+          <li class="butonlar list-group-item"><a class="list-item" href="cilt.html"></a><button class="btnler" id="btx9">Kadın Yazlık Kıyafet</button></li>
+          <li class="butonlar list-group-item"><a class="list-item" href="cilt.html"></a><button class="btnler" id="btx10">Kadın Ayakkabı</button></li>
+          
+        </ul>
+
+      </div>
+
+      <div class="main-altı">
+        <button id="xyz" class="btn btn-outline-danger manşet ih4">FLAŞ ÜRÜNLER</button>
+        <button id="xyz" class="btn btn-outline-success manşet ih4">EN ÇOK SATANLAR</button>
+        <button id="xyz" class="btn btn-outline-primary manşet ih4">ÖNE ÇIKANLAR</button>
+      </div>
+
+      <br>
+      <div class="uyarı">
+        <div id="uyari" class="alert alert-danger text-center" role="alert">
+          <i class="bi bi-exclamation-lg"></i>
+          Sepet Görüntülemek için hesaba ihtiyacınız var.
+        </div>
+      </div>
+
+      <div id="karsilama">
+        <p id="p1" class="text-center">Sayfamıza Hoşgeldiniz</p>
+        <br>
+        <p id="p1" class="text-center">Bu haftaya özel bizden %15 indirim kazandınız.</p>
+        <br>
+        <p id="p1" class="text-center">Keyifli Alışverişler dileriz.</p>
+  
+      </div>
+
+      <br />
+
+      <div class="ortaSayfa">
+        <h4 id="kapat" class="ih4">Erkek Modası</h6>
+      
+          <div id="card1" class="card ih4">
+            <div id="header1" class="card-header text-center">
+              Cilt Bakımı
+            </div>
+            <div class="card-body ih4">
+              <img id="resim1" src="resim/traş.jpg" alt="">
+              <br>
+              <p>Uygun Fiyatlı Ürünler</p>
+              <button id="btn1" class="btn btn-outline-success"><a id="link1" href="cilt.html">İncele</a></button>
+            </div>
+           </div>
+           <div id="card2" class="card ih4">
+            <div id="header2" class="card-header text-center">
+              Saç Bakımı
+            </div>
+            <div class="card-body ih4">
+              <img id="resim2" src="resim/saç.jpg" alt="">
+              <p>Uygun Fiyatlı Ürünler</p>
+              <button id="btn2" class="btn btn-outline-success"><a id="link2" href="cilt.html">İncele</a></button>
+            </div>
+           </div>
+           <div id="card3" class="card ih4">
+            <div id="header3" class="card-header text-center">
+              Trend Kıyafetler
+            </div>
+            <div class="card-body">
+              <img id="resim3" src="resim/mont1.jpg" alt="">
+              <p>Uygun Fiyatlı Ürünler</p>
+              <button id="btn3" class="btn btn-outline-success"><a id="link3" href="cilt.html">İncele</a></button>
+            </div>
+           </div>
+           <div id="card4" class="card ih4">
+            <div id="header4" class="card-header text-center">
+              Yazlık
+            </div>
+            <div class="card-body">
+              <img id="resim4" src="resim/indir (4).jpg" alt="">
+              <p>Uygun Fiyatlı Ürünler</p>
+              <button id="btn4" class="btn btn-outline-success"><a id="link4" href="cilt.html">İncele</a></button>
+            </div>
+           </div>
+           <div id="card5" class="card ih4">
+            <div id="header5" class="card-header text-center">
+              Ayakkabı
+            </div>
+            <div class="card-body">
+              <img id="resim5" src="resim/ayakkabı.jpg" alt="">
+              <p>Uygun Fiyatlı Ürünler</p>
+              <button id="btn5" class="btn btn-outline-success"><a id="link5" href="cilt.html">İncele</a></button>
+            </div>
+           </div>
+
+           <button id="back" class="btn btn-primary"><i class="bi bi-caret-left-fill"></i></button>
+           <button id="next" class="btn btn-primary"><i class="bi bi-caret-right-fill"></i></button>
+       
+           
+          
+          
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    
+
+    <script src="inceleme.js"></script>
+    <script src="log.js"></script>
+  </body>
+</html>

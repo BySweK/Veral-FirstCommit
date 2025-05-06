@@ -1,0 +1,469 @@
+#logo {
+  text-decoration: none;
+  position: relative;
+  left: 20px;
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  font-family: fantasy;
+  color: #155e95;
+  top: 5px;
+}
+
+.header-main {
+  background-color: white;
+}
+
+.header-main-item {
+  text-decoration: none;
+  position: relative;
+  left: 300px;
+  color: #155e95;
+  margin-right: 150px;
+  top: 5px;
+}
+
+.nav-button {
+  position: relative;
+  left: 450px;
+  margin-right: 10px;
+  margin-top: 0;
+  bottom: 2px;
+  top: 5px;
+}
+
+.header-main-item:hover {
+  color: gold;
+}
+
+#main-sorgu {
+  width: 400px;
+}
+
+#main-sorgu :hover {
+  box-shadow: 5px, 5px, 5px;
+}
+
+.main h5 {
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  width: 1530px;
+}
+
+.manşet {
+  margin-left: 100px;
+}
+
+.main-altı {
+  position: absolute;
+  left: 50%;
+  transform: translate(-58%, -50%);
+  top: 250px;
+  margin-bottom: 50px;
+}
+
+.ortaSayfa {
+  position: absolute;
+  left: 50%;
+  top: 350px;
+  transform: translate(-50%);
+}
+
+#incele {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#resim1 {
+  width: 150px;
+}
+
+#card1 {
+  position: absolute;
+  right: 400px;
+  top: 90px;
+  height: 250px;
+}
+
+#card1:hover {
+  box-shadow: 5px 5px 5px;
+}
+
+#card2:hover {
+  box-shadow: 5px 5px 5px;
+}
+
+#card3:hover {
+  box-shadow: 5px 5px 5px;
+}
+
+#card4:hover {
+  box-shadow: 5px 5px 5px;
+}
+
+#card5:hover {
+  box-shadow: 5px 5px 5px;
+}
+
+#btn1 {
+  position: absolute;
+  left: 50px;
+  bottom: 5px;
+}
+
+#card2 {
+  position: absolute;
+  top: 90px;
+  height: 250px;
+  right: 200px;
+}
+
+#resim2 {
+  width: 150px;
+}
+
+#card3 {
+  position: absolute;
+  top: 90px;
+  height: 250px;
+  right: 3px;
+}
+
+#resim3 {
+  width: 150px;
+  height: 100px;
+}
+
+#card4 {
+  position: absolute;
+  top: 90px;
+  height: 250px;
+  left: 157px;
+}
+
+#resim4 {
+  width: 150px;
+  height: 100px;
+}
+
+#card5 {
+  position: absolute;
+  top: 90px;
+  height: 250px;
+  left: 357px;
+}
+
+#resim5 {
+  width: 150px;
+  height: 100px;
+}
+
+#header1 {
+  background-color: red;
+  color: white;
+}
+
+#header2 {
+  background-color: blue;
+  color: white;
+}
+
+#header3 {
+  background-color: cadetblue;
+  color: white;
+}
+
+#header4 {
+  background-color: chocolate;
+  color: white;
+}
+
+#header5 {
+  background-color: burlywood;
+  color: white;
+}
+
+#girisLink {
+  text-decoration: none;
+  color: white;
+}
+
+#btn2 {
+  position: absolute;
+  left: 50px;
+  bottom: 5px;
+}
+
+#btn3 {
+  position: absolute;
+  left: 50px;
+  bottom: 5px;
+}
+
+#btn4 {
+  position: absolute;
+  left: 50px;
+  bottom: 5px;
+}
+
+#btn5 {
+  position: absolute;
+  left: 50px;
+  bottom: 5px;
+}
+
+#link1 {
+  text-decoration: none;
+  color: green;
+}
+
+#link1:hover {
+  color: white;
+}
+
+#link2 {
+  text-decoration: none;
+  color: green;
+}
+
+#link2:hover {
+  color: white;
+}
+
+#link3 {
+  text-decoration: none;
+  color: green;
+}
+
+#link3:hover {
+  color: white;
+}
+
+#link4 {
+  text-decoration: none;
+  color: green;
+}
+
+#link4:hover {
+  color: white;
+}
+
+#link5 {
+  text-decoration: none;
+  color: green;
+}
+
+#link5:hover {
+  color: white;
+}
+
+#indirim {
+  position: absolute;
+  left: 175px;
+}
+
+#karsilama {
+  width: 300px;
+  height: 300px;
+  background-color: #155e95;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.ih4 {
+  opacity: 1;
+}
+
+#p1 {
+  color: white;
+}
+
+#b1 {
+  position: absolute;
+  left: 105px;
+  top: 220px;
+}
+
+#kapat {
+  display: block;
+}
+
+.uyarı {
+  position: absolute;
+  top: 275px;
+  left: 460px;
+  width: 600px;
+  opacity: 0;
+}
+
+#next {
+  position: relative;
+  left: 550px;
+  top: 130px;
+}
+
+#back {
+  position: relative;
+  right: 540px;
+  top: 130px;
+}
+
+#list {
+  display: none;
+  width: 100px;
+}
+
+.list-item {
+  font-size: 5px;
+}
+
+.search-list {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  left: 560px;
+  top: 180px;
+  box-shadow: 5px 5px 5px;
+  display: none;
+}
+
+.butonlar {
+  font-size: 7px;
+  width: 400px;
+}
+
+#btx1 {
+  position: relative;
+  right: 18px;
+  width: 400px;
+  background-color: white;
+  padding: 9px;
+}
+#btx2 {
+  position: relative;
+  right: 18px;
+  width: 400px;
+  background-color: white;
+  padding: 9px;
+}
+
+#btx3 {
+  position: relative;
+  right: 18px;
+  width: 400px;
+  background-color: white;
+  padding: 9px;
+}
+
+#btx4 {
+  position: relative;
+  right: 18px;
+  width: 400px;
+  background-color: white;
+  padding: 9px;
+}
+
+#btx5 {
+  position: relative;
+  right: 18px;
+  width: 400px;
+  background-color: white;
+  padding: 9px;
+}
+
+#btx6 {
+  position: relative;
+  right: 18px;
+  width: 400px;
+  background-color: white;
+  padding: 9px;
+}
+
+#btx7 {
+  position: relative;
+  right: 18px;
+  width: 400px;
+  background-color: white;
+  padding: 9px;
+}
+
+#btx8 {
+  position: relative;
+  right: 18px;
+  width: 400px;
+  background-color: white;
+  padding: 9px;
+}
+
+#btx9 {
+  position: relative;
+  right: 18px;
+  width: 400px;
+  background-color: white;
+  padding: 9px;
+}
+
+#btx10 {
+  position: relative;
+  right: 18px;
+  width: 400px;
+  background-color: white;
+  padding: 9px;
+}
+
+#btx1:hover {
+  background-color: red;
+}
+
+#btx2:hover {
+  background-color: red;
+}
+
+#btx3:hover {
+  background-color: red;
+}
+
+#btx4:hover {
+  background-color: red;
+}
+
+#btx5:hover {
+  background-color: red;
+}
+
+#btx6:hover {
+  background-color: red;
+}
+
+#btx7:hover {
+  background-color: red;
+}
+
+#btx8:hover {
+  background-color: red;
+}
+
+#btx9:hover {
+  background-color: red;
+}
+
+#btx10:hover {
+  background-color: red;
+}

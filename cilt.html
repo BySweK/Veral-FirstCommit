@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+      integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      .resimxyz {
+        width: 50px;
+        position: relative;
+        right: 20px;
+      }
+    </style>
+
+    <link rel="stylesheet" href="ciltstyle.css" />
+  </head>
+  <body>
+    <h5 class="text-center mt-5">VERAL ERKEK CİLT BAKIM ÜRÜNLERİ</h5>
+
+    <div id="div">
+      <div id="card1" class="card">
+        <div class="card-header text-center">Tıraş Bıçağı</div>
+        <div class="card-image">
+          <img src="resim/indir (5).jpg" alt="" />
+        </div>
+        <div class="card-body">
+          <p>Yara yapmayan, kullanışlı tıraş bıçağı</p>
+          <p>Fiyat: 149,95 TL</p>
+          <button id="btn1" class="btn btn-primary">Satın Al</button>
+          <div id="btn1Ürün"></div>
+        </div>
+      </div>
+      <div id="card2" class="card">
+        <div class="card-header text-center">Tıraş Köpüğü</div>
+        <div class="card-image">
+          <img src="resim/indir (6).jpg" alt="" />
+        </div>
+        <div class="card-body">
+          <p>Yara önleyen, sinek kaydı kesimler için tıraş köpüğü</p>
+          <p>Fiyat: 139,95 TL</p>
+          <button id="btn2" class="btn btn-primary">Satın Al</button>
+        </div>
+      </div>
+      <div id="card3" class="card">
+        <div class="card-header text-center">Nemlendirici Krem</div>
+        <div class="card-image">
+          <img src="resim/indir (7).jpg" alt="" />
+        </div>
+        <div class="card-body">
+          <p>Gözenekleri açan, kirleri arındıran krem</p>
+          <p>Fiyat: 299,95 TL</p>
+          <button id="btn3" class="btn btn-primary">Satın Al</button>
+        </div>
+      </div>
+      <div id="card4" class="card">
+        <div class="card-header text-center">Hacı Şakir Sabun</div>
+        <div class="card-image">
+          <img src="resim/indir (8).jpg" alt="" />
+        </div>
+        <div class="card-body">
+          <p>Yüksek kalite, temizlik garantili Hacı Şakir sabunu</p>
+          <p>Fiyat: 99,95 TL</p>
+          <button id="btn4" class="btn btn-primary">Satın Al</button>
+        </div>
+      </div>
+      <div id="card5" class="card">
+        <div class="card-header text-center">Güneş Kremi</div>
+        <div class="card-image">
+          <img src="resim/indir (9).jpg" alt="" />
+        </div>
+        <div class="card-body">
+          <p>UV+50 Faktörlü, güneş ışınlarından koruyucu krem</p>
+          <p>Fiyat: 399,95 TL</p>
+          <button id="btn5" class="btn btn-primary">Satın Al</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="Ürünler">
+      <h4 class="text-center">Ürün Detayları</h4>
+      <br />
+      <p class="text-center" id="isimP">Ürün İsmi</p>
+      <p class="text-center" id="aciklamaP">Ürün Açıklama</p>
+      <br />
+      <p class="text-center" id="fiyatP">Ürün Fiyat</p>
+      <br />
+      <button id="pSatinAl" class="btn btn-primary">SATIN AL</button>
+    </div>
+
+    <button id="sepet" class="btn btn-success">
+      <i class="bi bi-bag-fill"></i>
+    </button>
+
+    <div class="sepet">
+      <ul id="list" class="list-group"></ul>
+    </div>
+
+    <script src="cilt.js"></script>
+  </body>
+</html>

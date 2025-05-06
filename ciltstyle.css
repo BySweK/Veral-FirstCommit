@@ -1,0 +1,131 @@
+#card1 {
+  width: 230px;
+  position: absolute;
+  left: 45px;
+  top: 150px;
+}
+
+#card1 button {
+  position: absolute;
+  left: 135px;
+  bottom: 21px;
+}
+
+#card2 {
+  width: 230px;
+  position: absolute;
+  left: 300px;
+  top: 150px;
+}
+
+#card2 button {
+  position: absolute;
+  left: 135px;
+  bottom: 21px;
+}
+
+#card3 {
+  width: 230px;
+  position: absolute;
+  left: 555px;
+  top: 150px;
+}
+
+#card3 button {
+  position: absolute;
+  left: 135px;
+  bottom: 21px;
+}
+
+#card4 {
+  width: 230px;
+  position: absolute;
+  left: 808px;
+  top: 150px;
+}
+
+#card4 button {
+  position: absolute;
+  left: 135px;
+  bottom: 21px;
+}
+
+#card5 {
+  width: 230px;
+  position: absolute;
+  left: 1065px;
+  top: 150px;
+}
+
+#card5 button {
+  position: absolute;
+  left: 135px;
+  bottom: 21px;
+}
+
+#div {
+  position: absolute;
+  left: 60px;
+}
+
+#Ürünler {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  position: absolute;
+  left: 610px;
+  top: 150px;
+  box-shadow: 5px 5px 5px;
+  opacity: 0;
+}
+
+#pSatinAl {
+  position: absolute;
+  left: 110px;
+}
+
+#sepet {
+  position: absolute;
+  left: 1400px;
+  top: 40px;
+}
+
+.sepet {
+  width: 250px;
+  position: absolute;
+  left: 1200px;
+  height: 50px;
+}
+
+.col-2 {
+  margin-left: 10px;
+}
+
+#xyz {
+  position: absolute;
+  left: 195px;
+}
+
+#resim {
+  width: 70px;
+  position: relative;
+  left: 25px;
+}
+
+.list-group-item {
+  width: 150px;
+  position: absolute;
+  left: 140px;
+}
+
+.btn-outline-danger {
+  position: relative;
+  left: 25px;
+  bottom: 10px;
+}
+
+.btn-outline-success {
+  position: relative;
+  left: 15px;
+  bottom: 10px;
+}
